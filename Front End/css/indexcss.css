@@ -1,0 +1,442 @@
+    #bigText {
+        /*Distance from top*/
+        margin-top: 190px;
+        /*Keep 450px from the left*/
+        margin-left: 450px;
+        /*Set text size*/
+        font-size: 65px;
+        /*Set font-family*/
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-weight: none;
+    }
+    
+    #smallText {
+        /*Margin distances */
+        margin-top: 70px;
+        margin-left: 700px;
+        font-size: 35px;
+        /*Font*family*/
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    #down-arrow {
+        /*Set desired width and height of arrow image*/
+        width: 40px;
+        height: 40px;
+        margin-top: 70px;
+        margin-left: 770px;
+    }
+    
+    body {
+        /*Make sure body take full space*/
+        margin: 0px;
+    }
+    
+    #index-section2 {
+        /*Set height,width and position*/
+        height: 70vh;
+        width: 100%;
+        position: static;
+        border: 2px solid black;
+    }
+    /*Set height,width of div and background color*/
+    
+    .index-section2-shopNow {
+        height: 100%;
+        background-color: black;
+        float: left;
+        width: 52%;
+    }
+    
+    #index-section2-bigText {
+        /*Set text colour preferences*/
+        color: #EEE6E6;
+        text-align: center;
+        padding-top: 125px;
+        font-family: Helvetica;
+        /*Letter spacing */
+        letter-spacing: 0.1em;
+        background: transparent;
+        font-size: 45px;
+    }
+    
+    #index-section2-smallText {
+        /*Align text to the center*/
+        text-align: center;
+        padding-top: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        letter-spacing: 0.1em;
+        /*DIv with no background*/
+        background: transparent;
+        font-size: 25px;
+    }
+    /*Preferences for specified div links*/
+    
+    #index-section2-smallText a {
+        text-decoration: none;
+        color: #EEE6E6;
+    }
+    /*Links hover effect*/
+    
+    #index-section2-smallText a:hover {
+        opacity: 0.75;
+    }
+    
+    .index-section2-backpack {
+        height: 100%;
+        float: right;
+        width: 48%;
+    }
+    /*Set height and width of image*/
+    
+    .index-section2-backpack img {
+        max-width: 100%;
+        height: 100%;
+    }
+    
+    #index-section3 {
+        height: 515px;
+        width: 100%;
+        border: 1px solid black;
+    }
+    /*ALign div next to each other*/
+    
+    .index-section3-image1,
+    .index-section3-image2,
+    .index-section3-image3 {
+        float: left;
+        height: 100%;
+        width: 33.33%;
+        /*Set each div position as relative*/
+        position: relative;
+        /**hides any overflow part*/
+        overflow: hidden;
+    }
+    /*Styling for div image*/
+    
+    .index-section3-image1 img,
+    .index-section3-image2 img,
+    .index-section3-image3 img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        overflow: hidden;
+    }
+    /*Upon image hover, zooms with smooth transition*/
+    
+    .index-section3-image1:hover img,
+    .index-section3-image2:hover img,
+    .index-section3-image3:hover img {
+        transform: scale(1.15);
+        transition: transform 1s ease;
+    }
+    /*Set an overlay class styling*/
+    
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        opacity: 0;
+    }
+    /*Call text animation effect*/
+    
+    .index-section3-image1:hover .overlay,
+    .index-section3-image2:hover .overlay,
+    .index-section3-image3:hover .overlay {
+        /*Animation*/
+        animation: text-animate 700ms forwards;
+    }
+    /*Desired animation*/
+    /*Set text opacity from 0 to 1*/
+    
+    @keyframes text-animate {
+        from {
+            opacity: 0;
+        }
+        to {
+            background-color: rgba(0, 0, 0, 0.47);
+            opacity: 1;
+        }
+    }
+    
+    .text {
+        /*Set colour to white*/
+        color: white;
+        /*Set font size to 30px*/
+        font-size: 30px;
+        position: absolute;
+        font-family: Comic Sans MS;
+        /*Set text in the middle of parent div*/
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        /*Centered text*/
+        text-align: center;
+        justify-content: center;
+    }
+    /*Set basic styling of index suxh as height,width and background colour*/
+    
+    #index-section4 {
+        height: 700px;
+        width: 100%;
+        border: 2px solid black;
+        background-color: rgba(0, 0, 0, 0.998);
+    }
+    
+    #section4-bigText {
+        /**Centered text*/
+        align-content: center;
+        color: white;
+        /*Set padding top*/
+        padding-top: 45px;
+        padding-left: 580px;
+        font-size: 85px;
+        font-family: Agency FB;
+    }
+    /*Basic text styling such as colour,size and font family*/
+    
+    #section4-smallText {
+        align-content: center;
+        color: white;
+        padding-top: 45px;
+        padding-left: 650px;
+        font-size: 33px;
+        font-family: Swiss;
+    }
+    /*Set styling for img with id backpacks*/
+    
+    #backpacks {
+        height: 38%;
+        margin-left: 410px;
+    }
+    /*Styling for each backpack title*/
+    
+    #backpack-description {
+        color: white;
+        font-size: 20px;
+        font-family: Tw Cen MT;
+        margin-left: 425px;
+    }
+    /*Styling for each backpack price*/
+    
+    #backpack-price {
+        color: white;
+        font-size: 17.5px;
+        /*Set distance from LHS of div*/
+        margin-left: 450px;
+    }
+    
+    #index-section5 {
+        /*Set background image of div*/
+        background-image: url('../Images/about2.jpg');
+        /*Prevent bg image from repeating*/
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*Set div height*/
+        height: 91.5vh;
+        width: 100%;
+    }
+    
+    #index-section5-about {
+        width: 53%;
+        float: left;
+        height: 100%;
+        /*Set opacity of background colour*/
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+    /*Styling for index section5 aboutus title text*/
+    
+    #index-section5-about-bigText {
+        margin-top: 210px;
+        font-family: Arial;
+        color: rgb(255, 253, 253);
+        margin-left: 315px;
+        font-size: 60px;
+        /*Spaccing from each character*/
+        letter-spacing: 0.05em;
+    }
+    
+    #index-section5-about-smallText {
+        margin-top: 25px;
+        font-family: Arial;
+        color: rgb(255, 253, 253);
+        margin-left: 315px;
+        font-size: 25px;
+        letter-spacing: 0.05em;
+        /*Assign to the left*/
+        text-align: left;
+        /*Display as inline block*/
+        display: inline-block;
+    }
+    
+    #index-section6 {
+        height: 650px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+    }
+    
+    #index-section6-left {
+        width: 50%;
+        height: 100%;
+        float: left;
+        color: white;
+    }
+    /*Hidden from user*/
+    
+    .submitting-text {
+        visibility: hidden;
+    }
+    /*Styling for all inputs with class contact-input*/
+    
+    .contact-input {
+        border: 1px solid white;
+        background: #020202;
+        margin-left: 10px;
+        height: 50px;
+        margin-top: 5px;
+        outline: none;
+        /*Text color*/
+        color: #EEE6E6;
+        padding-left: 12px;
+    }
+    /*Styling for message box*/
+    
+    .contact-message-input {
+        border: 1px solid white;
+        background: #020202;
+        margin-left: 10px;
+        height: 125px;
+        margin-top: 5px;
+        /*Remove default outline property*/
+        outline: none;
+        color: #EEE6E6;
+    }
+    /*Hovering effect of input textbox*/
+    
+    .contact-input:hover,
+    .contact-message-input:hover,
+    #contact-submit:hover {
+        border: solid white;
+        overflow: hidden;
+    }
+    /*CSS styling for class headings*/
+    
+    .headings {
+        /*Set font family as sans-serif*/
+        font-family: sans-serif;
+        font-size: 18.5px;
+        margin-left: 10px;
+    }
+    /*Input textbox placeholder*/
+    
+     ::placeholder {
+        font-size: 15px;
+    }
+    /*Contact form styling*/
+    
+    #contact-form {
+        width: 58%;
+        float: right;
+        margin-top: 110px;
+    }
+    /*Submit button*/
+    
+    #contact-submit {
+        width: 155px;
+        height: 40px;
+        margin-top: 5px;
+        outline: none;
+        /*Set background colour*/
+        background: #020202;
+        font-family: sans-serif;
+        font-size: 18.5px;
+        border: 1px solid white;
+        margin-right: 33px;
+        /*Float button to the RHS of parent div*/
+        float: right;
+        margin-top: 10px;
+    }
+    
+    #index-section6-right {
+        width: 45%;
+        height: 100%;
+        float: right;
+        margin-right: 30px;
+    }
+    /*Set styling for get in touch image*/
+    
+    #index-section6-right-image img {
+        width: 60%;
+        margin-top: 98px;
+    }
+    
+    #index-section7 {
+        width: 100%;
+        height: 450px;
+        /*Set background colour with opacity*/
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+    
+    #index-section7-bigText {
+        color: #EEE6E6;
+        padding-top: 90px;
+        font-family: Arial;
+        /*Space from each character*/
+        letter-spacing: 0.1em;
+        font-size: 40px;
+    }
+    
+    #index-section7-smallText {
+        color: white;
+        font-family: georgia;
+        letter-spacing: 0.05em;
+        font-size: 25px;
+        /*Set height of line*/
+        line-height: 1.4em;
+    }
+    
+    #mail-form {
+        margin-top: 25px;
+        /*Centered text*/
+        text-align: center;
+    }
+    
+    #subscription-email {
+        height: 50px;
+        /*A solid white border of 2.5px*/
+        border: 2.5px solid #EEE6E6;
+        background: #020202;
+        text-align: center;
+    }
+    
+    #subscription-email:hover {
+        border: 3px solid #EEE6E6;
+    }
+    /*Subscription submit button*/
+    
+    #subscription-submit {
+        width: 660px;
+        /*Transparent background*/
+        background: transparent;
+        outline: none;
+        background: #020202;
+        font-family: sans-serif;
+        font-size: 18.5px;
+        border: 2.5px solid #EEE6E6;
+        height: 50px;
+    }
+    /*Specify placeholder for specific input*/
+    
+    input[id^="subscription-email"]::-webkit-input-placeholder {
+        font-size: 18.5px;
+    }
+    /*Hover effect on submit button*/
+    
+    #subscription-submit:hover {
+        opacity: 0.5;
+    }

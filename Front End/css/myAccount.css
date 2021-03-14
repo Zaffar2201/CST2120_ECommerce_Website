@@ -1,0 +1,182 @@
+    /*Main content styling*/
+    
+    #myAccount-main {
+        /*Background colour with some opacity*/
+        background-color: rgba(0, 0, 0, 0.95);
+        color: white;
+        /*A border of 2px*/
+        border: 2px black;
+        width: 100%;
+    }
+    
+    #accountInfo {
+        /*Inline-block display to allow div to be side by side*/
+        display: inline-block;
+    }
+    
+    #accountProfile {
+        /*Set div height to 600px*/
+        height: 600px;
+        margin-top: 70px;
+        margin-left: 290px;
+        width: 245px;
+        /*Float div to the LHS*/
+        float: left;
+    }
+    
+    #accountProfile-Pic {
+        /*Styling to div borders*/
+        border-top: 0.5px solid white;
+        border-left: 0.5px solid white;
+        border-right: 0.5px solid white;
+        height: 180px;
+    }
+    
+    #accountProfile-Pic img {
+        width: 150px;
+        height: 150px;
+        margin-left: 47.5px;
+        margin-top: 5px;
+        /*Set opacity of image*/
+        opacity: 0.8;
+    }
+    
+    .accountProfilePic-Text {
+        color: #EEE6E6;
+        /*Set text font-family to verdana*/
+        font-family: verdana;
+        margin-top: 5px;
+    }
+    
+    #accountProfile-Links {
+        /*Clear prevent any floating */
+        clear: left;
+        margin-top: 40px;
+    }
+    
+    table {
+        /*Set table width to full width of parent div*/
+        width: 100%;
+        height: 125px;
+        border: 0.5px solid #EEE6E6;
+    }
+    
+    table a {
+        /*Remove any anchor links current styling*/
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #accountTableLinks a:hover {
+        /*Remove any anchor links current styling*/
+        text-decoration: none;
+        color: lemonchiffon;
+    }
+    
+    .middleBorder {
+        /*Set table row border bottom to desired rgb colour*/
+        border-bottom: 1px solid rgba(173, 255, 47, 0.7);
+    }
+    
+    td {
+        padding-left: 30px;
+        font-weight: none;
+        /*Set table data font-family*/
+        font-family: verdana;
+    }
+    
+    td:hover {
+        /*Upon hovering table data, set colour to desired rgba*/
+        color: rgba(173, 255, 47, 0.7);
+    }
+    
+    #accountForm {
+        /*Set form background to transparent*/
+        background: transparent;
+        width: 670px;
+        min-height: 600px;
+        border: 0.5px solid white;
+        /*Set margin distances for the form*/
+        margin-top: 70px;
+        margin-left: 565px;
+        padding-left: 20px;
+        /*Distance inside the form*/
+        padding-right: 20px;
+    }
+    
+    #Intro-text {
+        font-family: verdana;
+        /*Set text size to 26px*/
+        font-size: 26px;
+        padding-top: 20px;
+    }
+    
+    #Edit-text {
+        font-family: sans-serif;
+        font-size: 16px;
+        padding-top: 20px;
+        /*Remove any default font weight*/
+        font-weight: none;
+        Opacity: 0.95;
+    }
+    
+    #currentEmail {
+        color: #EEE6E6;
+        font-family: Arial;
+    }
+    
+    #first-Fields,
+    #second-Fields,
+    #third-Fields {
+        /*Inline block display to allow div to be side by side*/
+        display: inline-block;
+        width: 100%;
+    }
+    
+    #first-Fields-right,
+    #second-Fields-right,
+    #third-Fields-right {
+        float: right;
+        /*Set input width to 50%* of parent div*/
+        width: 50%;
+    }
+    
+    #first-Fields-left,
+    #second-Fields-left,
+    #third-Fields-left {
+        /*Float div to the LHS*/
+        float: left;
+        width: 50%;
+    }
+    
+    .account-input {
+        border: 1px solid white;
+        background: #020202;
+        height: 50px;
+        width: 90.5%;
+        margin-top: 15px;
+        /*Input textbox color to whitesmoke*/
+        color: whitesmoke;
+    }
+    
+    #form input {
+        /*Padding inside account form input textbox*/
+        padding-left: 10px;
+    }
+    
+    .accountButton {
+        /*Set border styling to the account button*/
+        border: 1px solid #80A315;
+        background: #80A315;
+        height: 50px;
+        width: 45.3%;
+        /*Colour of text on the button*/
+        color: #020202;
+        outline: none;
+    }
+    
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }

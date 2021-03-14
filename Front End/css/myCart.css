@@ -1,0 +1,238 @@
+#myCart-main {
+    background-color: rgba(0, 0, 0, 0.95);
+    border: 0.25px black;
+    width: 100%;
+    /*View height requirement*/
+    min-height: 97vh;
+    border: 1px solid black;
+}
+
+#myCart-Profile {
+    width: 100%;
+    /*120 px height div*/
+    min-height: 120px;
+}
+
+#myCartProfile-left {
+    width: 50%;
+    float: left;
+    height: 35px;
+    margin-bottom: 5px;
+}
+
+
+/*Image on myCartprofile-left div*/
+
+#myCartProfile-left img,
+#myCartProfile-right img {
+    width: 12px;
+    height: 12px;
+    margin-top: 105px;
+    margin-left: 315px;
+}
+
+
+/*Anchor link style*/
+
+#myCartProfile-left a,
+#myCartProfile-right a {
+    /*Remove default styling*/
+    outline: none;
+    color: inherit;
+}
+
+
+/*Reduce opacity upon hovering anchor links*/
+
+#myCartProfile-left a:hover {
+    opacity: 0.9;
+}
+
+#myCartProfile-right {
+    width: 50%;
+    float: right;
+    height: 35px;
+    padding-top: 102px;
+    margin-bottom: 5px;
+}
+
+.checkoutButton img {
+    width: 25px;
+    height: 25px;
+    /*Set image on the same line as text*/
+    vertical-align: middle;
+}
+
+#myCart-Table {
+    margin-left: 315px;
+    width: 880px;
+    margin-top: 30px;
+}
+
+#Basket {
+    /*Display as inline-block*/
+    display: inline-block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table tr {
+    border-bottom: 1px solid rgba(211, 211, 211, 0.65);
+    padding: 5px;
+    color: white;
+}
+
+tr.spaceUnder>td,
+tr.spaceUnder>th {
+    /*Space under each row*/
+    padding-bottom: 1em;
+}
+
+.remove-icon {
+    width: 30px;
+    height: 30px;
+    opacity: 0.8;
+}
+
+
+/*Hover effect on image*/
+
+.remove-icon:hover {
+    opacity: 1;
+}
+
+#confirmationBox {
+    float: right;
+    width: 375px;
+    color: #EEE6E6;
+    /*Set desired font-family*/
+    font-family: Helvetica;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.confirmationBox-Price {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.confirmationBox-Shipping {
+    font-size: 13.5px;
+}
+
+.confirmationBox-Finalprice {
+    font-size: 20px;
+    margin-top: 14.5px;
+}
+
+.checkoutButton {
+    float: right;
+    min-height: 45px;
+    width: 100%;
+    /*Margin-top*/
+    margin-top: 25px;
+    background-color: #EEE6E6;
+    font-family: Helvetica;
+    /*Set spacing between each letter*/
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+#Backpack1 {
+    width: 90%;
+}
+
+#Backpack2 {
+    width: 115%;
+}
+
+#Backpack3 {
+    width: 60%;
+}
+
+#Backpack4 {
+    width: 95%;
+}
+
+#Backpack5 {
+    width: 90%;
+}
+
+#Backpack6 {
+    width: 125%;
+}
+
+#Backpack7 {
+    width: 70%;
+}
+
+#Backpack8 {
+    width: 77.5%;
+}
+
+#Dufflebag1 {
+    width: 90%;
+}
+
+#Dufflebag2 {
+    width: 95%;
+}
+
+#Dufflebag3 {
+    width: 90%;
+}
+
+#Dufflebag4 {
+    width: 105%;
+}
+
+#Dufflebag5 {
+    width: 90%;
+}
+
+#Dufflebag6 {
+    width: 90%;
+}
+
+#Dufflebag7 {
+    width: 100%;
+}
+
+#Dufflebag8 {
+    width: 85%;
+}
+
+#Travelpack1 {
+    width: 72.5%;
+}
+
+#Travelpack2 {
+    width: 67.5%;
+}
+
+#Travelpack3 {
+    width: 70%;
+}
+
+#Travelpack4 {
+    width: 72.5%;
+}
+
+#Travelpack5 {
+    width: 70%;
+}
+
+#Travelpack6 {
+    width: 72.5%;
+}
+
+#Travelpack7 {
+    width: 50%;
+}
+
+#Travelpack8 {
+    width: 75%;
+}

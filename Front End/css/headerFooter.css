@@ -1,0 +1,278 @@
+* {
+    /*Height and width apply to all parts of the element: content, padding and borders*/
+    box-sizing: border-box;
+}
+
+html {
+    height: auto;
+    /*Display scroll-bar*/
+    overflow: visible;
+    margin: 0;
+}
+
+
+/*Smooth scroll*/
+
+@media screen and (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+}
+
+body {
+    /*No spaces in between*/
+    margin: 0px;
+}
+
+#index-section1 {
+    background-color: black;
+    color: white;
+    /*Set background image*/
+    background-image: url('../Images/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Take full view height*/
+    height: 100vh;
+    width: 100%;
+    border: 2px solid black;
+}
+
+
+/*Styling for navbar*/
+
+#headerNav {
+    height: 92px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    /*Set above all content*/
+    z-index: 100;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+
+/*Search bar class styles*/
+
+.search {
+    width: 100%;
+    display: flex;
+}
+
+.searchTerm {
+    width: 100%;
+    /*A 2.5px solid border*/
+    border: 2.5px solid whitesmoke;
+    border-right: none;
+    padding: 5px;
+    height: 27px;
+    /*Rounded borders*/
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    background-color: transparent;
+}
+
+.searchTerm:focus {
+    color: white;
+}
+
+
+/*Styling for search button*/
+
+.searchButton {
+    width: 40px;
+    height: 27px;
+    border: 1px solid whitesmoke;
+    background: whitesmoke;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    /*Change into pointer effect*/
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.searchButton img {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+#wrap {
+    width: 37.5%;
+    margin-left: 325px;
+    margin-top: -30px;
+    /*Set opacity of div*/
+    opacity: 0.85;
+    /*Make sure all elements are align on the same line*/
+    vertical-align: middle;
+}
+
+
+/*#wrap img {
+    width: 23px;
+    height: 23px;
+    margin-top: -3px;
+}*/
+
+
+/*Additional wrap opacity class for JS function*/
+
+.wrap-opacity {
+    opacity: 0.15 !important;
+}
+
+#title {
+    color: white;
+    /*Removes any text decoration*/
+    text-decoration: none;
+    font-family: Times;
+    /*Title opacity*/
+    opacity: 0.85;
+    font-size: 20px;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+#title img {
+    width: 30px;
+    height: 30px;
+    /*Align image in the middle*/
+    vertical-align: middle;
+}
+
+
+/*Styling for headerNav links*/
+
+.headerNav-link {
+    width: 40%;
+    float: right;
+    margin-top: -52px;
+}
+
+.headerNav-link a {
+    color: white;
+    text-decoration: none;
+    /*Set font family of each links*/
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.85;
+    font-size: 20px;
+    text-align: right;
+    padding: 27px;
+    /*Inline-block display*/
+    display: inline-block;
+}
+
+.headerNav-link a:hover {
+    opacity: 1;
+    color: white;
+}
+
+.headerNav-link a:hover {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+
+/*Styling for ImageIcon class*/
+
+.ImageIcon {
+    height: 23px;
+    width: 23px;
+    vertical-align: middle;
+    padding-left: 3px;
+}
+
+.dropdown2 {
+    /*Set position as relative to display dropdown content*/
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown2-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.65);
+    max-width: 160px;
+    /*Display over all elements*/
+    z-index: 100;
+}
+
+.dropdown2-content a {
+    color: white;
+    padding-bottom: 9.5px;
+    text-decoration: none;
+    display: block;
+    /*Insist that text alignment should be to LHS*/
+    text-align: left !important;
+    font-size: 15px;
+}
+
+
+/*Display as block upon hover*/
+
+.dropdown2:hover .dropdown2-content {
+    display: block;
+}
+
+
+/*Change color upon hovering link of dropdown content*/
+
+.dropdown2-content a:hover {
+    color: greenyellow;
+}
+
+
+/*Index footer page styling*/
+
+#footer {
+    height: 150px;
+    width: 100%;
+    /*Background color with opacity*/
+    background-color: rgba(0, 0, 0, 0.85);
+    border: 0.025px solid rgba(0, 0, 0, 0.85);
+    bottom: 0;
+}
+
+
+/*Other pages footer*/
+
+.footer-other {
+    height: 150px;
+    width: 100%;
+    /*Background color with opacity*/
+    background-color: rgba(0, 0, 0, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.95)
+}
+
+.footer-text {
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    /*Remove any font weight*/
+    font-weight: none;
+    font-style: normal;
+    color: #A29C9C;
+    padding-top: 30px;
+    text-align: center;
+}
+
+
+/*Social media icons in the footer*/
+
+footer img {
+    width: 25px;
+    height: 25px;
+    /*Opacity of each icons*/
+    opacity: 0.90;
+    overflow: hidden;
+}
+
+
+/*Upon hover, zoom*/
+
+footer img:hover {
+    transform: scale(1.3);
+}

@@ -1,0 +1,200 @@
+/*Styling for SHop-main div*/
+
+#myShop-main {
+    /*Background colour with opacity*/
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+    width: 100%;
+    /*Set font family*/
+    font-family: sans-serif;
+    line-height: 1.8;
+}
+
+.btn-group button {
+    /* balck text */
+    color: black;
+    /* Padding */
+    padding: 10px 24px;
+    cursor: pointer;
+    /* Pointer hand icon */
+}
+
+
+/*Padding for button*/
+
+.w3-bar .w3-button {
+    padding: 16px;
+}
+
+.w3-col.l3.m6.bagWrap {
+    width: 50%;
+    /*Hides any overflow*/
+    overflow: hidden;
+    margin-bottom: 1em;
+}
+
+.BagImageWrapper {
+    /*Set width*/
+    width: 50%;
+    float: left;
+}
+
+.BagDescriptionWrapper {
+    overflow: hidden;
+    /*Distance from the top*/
+    margin-top: 50px;
+}
+
+.BagName {
+    margin-top: 0px;
+}
+
+.BagPrice {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.shopPara {
+    font-size: 12px;
+    /*Display paragraph as inline-block*/
+    display: inline-block;
+}
+
+#Backpack1 {
+    width: 90%;
+}
+
+#Backpack2 {
+    width: 115%;
+    margin-top: 20px;
+}
+
+#Backpack3 {
+    width: 60%;
+    margin-left: 40px;
+}
+
+#Backpack4 {
+    width: 95%;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#Backpack5 {
+    width: 90%;
+    margin-left: -10px;
+    margin-top: 50px;
+}
+
+#Backpack6 {
+    width: 125%;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+
+#Backpack7 {
+    width: 70%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+#Backpack8 {
+    width: 77.5%;
+    margin-left: 55px;
+    margin-top: -5px;
+}
+
+#Dufflebag1 {
+    width: 90%;
+    margin-top: -15px;
+}
+
+#Dufflebag2 {
+    width: 95%;
+    margin-top: -30px;
+}
+
+#Dufflebag3 {
+    width: 90%;
+    margin-top: -85px;
+}
+
+#Dufflebag4 {
+    width: 105%;
+    margin-top: -10px;
+}
+
+#Dufflebag5 {
+    width: 90%;
+    margin-top: 15px;
+}
+
+#Dufflebag6 {
+    width: 90%;
+    margin-top: -40px;
+}
+
+#Dufflebag7 {
+    width: 100%;
+    margin-top: -55px;
+}
+
+#Dufflebag8 {
+    width: 85%;
+    margin-top: 20px;
+}
+
+#Travelpack1 {
+    width: 72.5%;
+    margin-top: 10px;
+    margin-left: 45px;
+}
+
+#Travelpack2 {
+    width: 67.5%;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#Travelpack3 {
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+#Travelpack4 {
+    width: 72.5%;
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+#Travelpack5 {
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+#Travelpack6 {
+    width: 72.5%;
+    margin-top: 45px;
+    margin-left: 45px;
+}
+
+#Travelpack7 {
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+#Travelpack8 {
+    width: 75%;
+    margin-top: 50px;
+    margin-left: 45px;
+}
+
+#Products {
+    min-height: 100vh;
+}
+
+
+/* style="width:72.5%; margin-top:15px;margin-left:45px"*/

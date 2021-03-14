@@ -1,0 +1,137 @@
+/*Login main div*/
+
+#login-main {
+    background-color: black;
+    color: white;
+    /*Background image*/
+    background-image: url('../Images/lgbg-min.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Set view height*/
+    height: 100vh;
+    width: 100%;
+    border: 0.25px black;
+}
+
+.login-dark {
+    height: 700px;
+    background-size: cover;
+    /*Set login form div position as relative*/
+    position: relative;
+}
+
+.login-dark #form {
+    max-width: 320px;
+    width: 90%;
+    /*Form background colour*/
+    background-color: #1e2833;
+    padding: 40px;
+    /*Form border radius*/
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    /*Form box shadow*/
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+.login-dark .illustration {
+    /*Centered text*/
+    text-align: center;
+    padding: 15px 0 20px;
+    font-size: 100px;
+    /*Set text colour*/
+    color: #2980ef;
+}
+
+.login-dark #form .form-control {
+    /*Remove any background*/
+    background: none;
+    border: none;
+    border-bottom: 1px solid #434a52;
+    border-radius: 0;
+    /*Remove any box shadow*/
+    box-shadow: none;
+    outline: none;
+    /*Inherit default colour*/
+    color: inherit;
+}
+
+
+/*Double class styling*/
+
+.login-dark #form .btn-primary {
+    background: #214a80;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    /*Margin from the top*/
+    margin-top: 26px;
+    text-shadow: none;
+    outline: none;
+}
+
+.btn-block {
+    /*Display as block*/
+    display: block;
+    width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    /*Background colour of button*/
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.login-dark #form .btn-primary:hover,
+.login-dark #form .btn-primary:active {
+    background: #214a80;
+    outline: none;
+}
+
+
+/*Forgot text*/
+
+.login-dark #form .forgot {
+    display: block;
+    /*Centered text*/
+    text-align: center;
+    font-size: 13.5px;
+    color: #eef0f1;
+    opacity: 0.9;
+    /*Removes any text decoration*/
+    text-decoration: none;
+}
+
+.login-dark #form .forgot:hover,
+.login-dark #form .forgot:active {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.login-dark #form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    /*Automatically calculate the height*/
+    height: calc(2.25rem + 2px);
+    /*Padding*/
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    /*border radius 0.25 of 1 alphabet*/
+    border-radius: .25rem;
+    /*Smooth transition*/
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}

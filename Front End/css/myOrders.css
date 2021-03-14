@@ -1,0 +1,234 @@
+/*Main div content*/
+
+#myOrders-main {
+    background-color: rgba(0, 0, 0, 0.95);
+    border: 0.25px black;
+    width: 100%;
+    /*Set min vH, will increase automatically if needed*/
+    min-height: 97vh;
+    border: 1px solid black;
+}
+
+.myOrders-Profile {
+    width: 100%;
+    /*Height of myOrders-Profile*/
+    height: 120px;
+}
+
+#myOrdersProfile-left {
+    width: 50%;
+    /*FLoat div to the LHS*/
+    float: left;
+    height: 100%;
+}
+
+
+/*Styling for individual orders image*/
+
+#myOrdersProfile-left img {
+    width: 12px;
+    height: 12px;
+    /*Set margin withing each td*/
+    margin-top: 105px;
+    margin-left: 315px;
+}
+
+
+/*Remove any default anchor link styling*/
+
+#myOrdersProfile-left a {
+    outline: none;
+    color: inherit;
+}
+
+
+/*Reduce opacity upon hovering*/
+
+#myOrdersProfile-left a:hover {
+    opacity: 0.9;
+}
+
+.checkoutButton img {
+    width: 25px;
+    height: 25px;
+    /*Align image to middle*/
+    vertical-align: middle;
+}
+
+
+/*Styling for order table*/
+
+#OrderTable {
+    margin-left: 315px;
+    width: 950px;
+    margin-top: 30px;
+    color: #EEE6E6;
+}
+
+table {
+    border-collapse: collapse;
+    /*Space between each td border*/
+    border-spacing: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table tr {
+    /*Table row border colour*/
+    border-bottom: 1px solid rgba(211, 211, 211, 0.65);
+    padding: 5px;
+}
+
+tr.spaceUnder>td,
+tr.spaceUnder>th {
+    /*Padding for table data and header*/
+    padding-bottom: 1em;
+}
+
+.remove-icon {
+    width: 30px;
+    height: 30px;
+    /*Set default opacity of removeicon img*/
+    opacity: 0.8;
+}
+
+
+/*Retrieve default opacity upon hovering*/
+
+.remove-icon:hover {
+    opacity: 1;
+}
+
+#confirmationBox {
+    float: right;
+    width: 375px;
+    color: #EEE6E6;
+    font-family: Helvetica;
+    /*Background colour with opacity*/
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.confirmationBox-Price {
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.confirmationBox-Shipping {
+    /*Font size of shipping text*/
+    font-size: 13.5px;
+}
+
+.confirmationBox-Finalprice {
+    font-size: 20px;
+    /*Upper distance*/
+    margin-top: 14.5px;
+}
+
+.checkoutButton {
+    float: right;
+    /*Set min height of button*/
+    min-height: 45px;
+    width: 100%;
+    margin-top: 25px;
+    background-color: #EEE6E6;
+    font-family: Helvetica;
+    /*Letter spacing of each character*/
+    letter-spacing: 0.1em;
+    font-size: 20px;
+}
+
+#Backpack1 {
+    width: 90%;
+}
+
+#Backpack2 {
+    width: 115%;
+}
+
+#Backpack3 {
+    width: 60%;
+}
+
+#Backpack4 {
+    width: 95%;
+}
+
+#Backpack5 {
+    width: 90%;
+}
+
+#Backpack6 {
+    width: 125%;
+}
+
+#Backpack7 {
+    width: 70%;
+    margin-left: 50px;
+}
+
+#Backpack8 {
+    width: 77.5%;
+}
+
+#Dufflebag1 {
+    width: 90%;
+}
+
+#Dufflebag2 {
+    width: 95%;
+}
+
+#Dufflebag3 {
+    width: 90%;
+}
+
+#Dufflebag4 {
+    width: 105%;
+}
+
+#Dufflebag5 {
+    width: 90%;
+}
+
+#Dufflebag6 {
+    width: 90%;
+}
+
+#Dufflebag7 {
+    width: 100%;
+}
+
+#Dufflebag8 {
+    width: 85%;
+}
+
+#Travelpack1 {
+    width: 72.5%;
+}
+
+#Travelpack2 {
+    width: 67.5%;
+}
+
+#Travelpack3 {
+    width: 70%;
+}
+
+#Travelpack4 {
+    width: 72.5%;
+}
+
+#Travelpack5 {
+    width: 70%;
+}
+
+#Travelpack6 {
+    width: 72.5%;
+}
+
+#Travelpack7 {
+    width: 50%;
+}
+
+#Travelpack8 {
+    width: 75%;
+}

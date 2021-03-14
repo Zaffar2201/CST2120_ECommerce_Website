@@ -1,0 +1,132 @@
+/*Register div*/
+
+#register-main {
+    background-color: black;
+    color: white;
+    /*Set background image*/
+    background-image: url('../Images/rgbg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*Full screen height*/
+    height: 100vh;
+    width: 100%;
+    border: 0.25px black;
+}
+
+.register-dark {
+    height: 700px;
+    background-size: cover;
+    /*Set class position as relative*/
+    position: relative;
+}
+
+.register-dark #form {
+    max-width: 320px;
+    width: 90%;
+    /*Set background colour*/
+    background-color: #1e2833;
+    padding: 40px;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    /*Absolute position*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+/*Double class styling*/
+
+.register-dark #form .form-control {
+    background: none;
+    border: none;
+    /*Solid border button*/
+    border-bottom: 1px solid #434a52;
+    border-radius: 0;
+    box-shadow: none;
+    outline: none;
+    /*Inherit any colour*/
+    color: inherit;
+}
+
+
+/*Double class styling*/
+
+.register-dark #form .btn-primary {
+    background: #214a80;
+    border: none;
+    /*Rounded borders*/
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 26px;
+    text-shadow: none;
+    /*Remove default outline*/
+    outline: none;
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.btn-primary {
+    color: #fff;
+    /*Set button background colour*/
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.register-dark #form .btn-primary:hover,
+.register-dark #form .btn-primary:active {
+    background: #214a80;
+    outline: none;
+}
+
+.register-dark #form .forgot {
+    display: block;
+    /*Centered text*/
+    text-align: center;
+    font-size: 13.5px;
+    color: #eef0f1;
+    /*Slight opacity*/
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+.register-dark #form .forgot:hover,
+.register-dark #form .forgot:active {
+    opacity: 1;
+    text-decoration: none;
+}
+
+.register-dark #form .btn-primary:active {
+    transform: translateY(1px);
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    /*Automatically calculate height*/
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    /*Background colour*/
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    /*Smooth transition*/
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.text {
+    /*Cursive text family*/
+    font-family: cursive;
+    font-size: 25px;
+    color: rgba(238, 230, 230, 0.9);
+}
